@@ -5,9 +5,40 @@ The Customer Address API is a RESTful API that provides endpoints for managing c
 
 | Method | Function |
 |-------:|----------|
+|    Get | read-all |
 |   Post | Create   |
 | Delete | Delete   |
 
+## Read All
+
+To read all addresses registered to a customer, the customer must log in first.
+
+Post :  https://trojena.oa.r.appspot.com/customer/address/read-all
+
+|              Parameter | 
+|-----------------------:|
+|  There is no Parameter |
+
+
+Example request:
+```
+Get /customer/address/read-all
+```
+Example response:
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+    {
+       data ........
+    },
+    {
+       data ........
+    }
+]
+```
 
 ## Create
 

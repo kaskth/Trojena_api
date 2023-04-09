@@ -4,12 +4,45 @@ The Cart API is a RESTful API that allows users to manage their shopping carts f
 
 The Cart API is designed to be simple and intuitive, with straightforward endpoints and clear documentation. It is built using modern technologies and follows best practices for API development, including input validation, error handling, and security measures.
 
-| Method | Function   |
-|-------:|------------|
-|   Post | addition |
-| Delete | removal     |
+| Method | Function              |
+|-------:|-----------------------|
+|    Get | read-all              |
+|   Post | addition              |
+| Delete | removal               |
 |  PATCH | increase-the-quantity |
-|  PATCH | reduce-the-quantity |
+|  PATCH | reduce-the-quantity   |
+
+## Read All
+
+To read all the products in the shopping cart, the customer must log in first.
+
+Post :  https://trojena.oa.r.appspot.com/customer/cart/read-all
+
+|              Parameter | 
+|-----------------------:|
+|  There is no Parameter |
+
+
+Example request:
+```
+Get /customer/cart/read-all
+```
+Example response:
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+    {
+       data ........
+    },
+    {
+       data ........
+    }
+]
+```
+
 
 ## Addition
 
@@ -17,10 +50,10 @@ To add items to the cart, users must first log in to their account. Once logged 
 
 Post :  https://trojena.oa.r.appspot.com/customer/cart/addition
 
-|   Parameter | Type                  | Example          |
-|------------:|-----------------------|------------------|
-|  product_id | int              | 1                |
-| rating | decimal(2,1)   | 1.5              |
+|   Parameter | Type                  | Example         |
+|------------:|-----------------------|-----------------|
+|  product_id | int              | 1               |
+| rating | decimal(2,1)   | 1.5             |
 |  message | text   | trojena ... > 15 |
 
 Example request:
