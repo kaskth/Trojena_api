@@ -13,7 +13,7 @@ The Customer Address API is a RESTful API that provides endpoints for managing c
 
 To add a new address to your profile, authentication is required. Please log in to your account with your credentials before attempting to add a new address.
 
-Post :  https://trojena-back.onrender.com/customer/address/create
+Post :  https://trojena.oa.r.appspot.com/customer/address/create
 
 |   Parameter | Type   | Example   |
 |------------:|--------|------------|
@@ -44,7 +44,7 @@ Content-Type: application/json
 
 To remove an existing address from their profile, users must first log in to their account. Once logged in, users can view and manage their profile information, including removing any addresses they no longer wish to keep on file. If the user is not logged in and tries to remove an address from their profile, they will be prompted to log in first.
 
-Delete :  https://trojena-back.onrender.com/customer/address/delete
+Delete :  https://trojena.oa.r.appspot.com/customer/address/delete
 
 |   Parameter | Type                | Example   |
 |------------:|---------------------|------------|

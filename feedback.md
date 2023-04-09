@@ -12,7 +12,7 @@ The Feedback API is a RESTful API that allows users to submit feedback for a pro
 
 To leave a rating and comment on a product, please log in to your account first. This helps ensure the authenticity and quality of feedback provided by our users. If you don't have an account, you can easily create one by clicking on the 'Sign Up' button on our website.
 
-Post :  https://trojena-back.onrender.com/customer/feedback/create
+Post :  https://trojena.oa.r.appspot.com/customer/feedback/create
 
 |  Parameter | Type         | Example   |
 |-----------:|--------------|-----------|

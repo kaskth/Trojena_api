@@ -13,7 +13,7 @@ The Customer Authentication API is a RESTful API that allows customers to secure
 
 To use the platform's services, customers must create a new account by registering with their email address and creating a secure password . The registration process is simple and easy to follow.
 
-Post :  https://trojena-back.onrender.com/authentication/store/register
+Post :  https://trojena.oa.r.appspot.com/authentication/store/register
 
 |   Parameter | Type         | Example           |
 |------------:|--------------|-------------------|
@@ -41,7 +41,7 @@ Content-Type: application/json
 
 To log in, users can navigate to the "login" page and enter their email address and password. The system may also require additional security measures such as two-factor authentication. Once the user submits the login form, the system will verify the credentials and grant access to the website services.
 
-Get :  https://trojena-back.onrender.com/authentication/store/login
+Get :  https://trojena.oa.r.appspot.com/authentication/store/login
 
 |   Parameter | Type                  | Example |
 |------------:|-----------------------|---------|
@@ -67,7 +67,7 @@ Content-Type: application/json
 
 To ensure the security of your account and personal information, it is recommended that you log out after using the website services.
 
-Get :  https://trojena-back.onrender.com/authentication/store/logout
+Get :  https://trojena.oa.r.appspot.com/authentication/store/logout
 
 |   Parameter | Type                   | Example |
 |------------:|------------------------|---------|
