@@ -5,7 +5,7 @@ The Customer Authentication API is a RESTful API that allows customers to secure
 | Method | Function   |
 |-------:|------------|
 |   Post | register |
-|    Get | login     |
+|   Post | login     |
 |  Get | logout |
 
 
@@ -41,7 +41,7 @@ Content-Type: application/json
 
 To log in, users can navigate to the "login" page and enter their email address and password. The system may also require additional security measures such as two-factor authentication. Once the user submits the login form, the system will verify the credentials and grant access to the website services.
 
-Get :  https://trojena.oa.r.appspot.com/authentication/store/login
+Post :  https://trojena.oa.r.appspot.com/authentication/store/login
 
 |   Parameter | Type                  | Example |
 |------------:|-----------------------|---------|
@@ -50,7 +50,7 @@ Get :  https://trojena.oa.r.appspot.com/authentication/store/login
 
 Example request:
 ```
-Get /authentication/store/login
+Post /authentication/store/login
 ```
 Example response:
 
