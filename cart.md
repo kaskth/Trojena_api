@@ -16,7 +16,7 @@ The Cart API is designed to be simple and intuitive, with straightforward endpoi
 
 To read all the products in the shopping cart, the customer must log in first.
 
-Post :  https://trojena.oa.r.appspot.com/customer/cart/read-all
+Get :  https://trojena.oa.r.appspot.com/customer/cart/read-all
 
 |              Parameter | 
 |-----------------------:|
