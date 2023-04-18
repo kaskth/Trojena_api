@@ -53,8 +53,7 @@ Post :  https://trojena.oa.r.appspot.com/customer/cart/addition
 |   Parameter | Type                  | Example         |
 |------------:|-----------------------|-----------------|
 |  product_id | int              | 1               |
-| rating | decimal(2,1)   | 1.5             |
-|  message | text   | trojena ... > 15 |
+
 
 Example request:
 ```
